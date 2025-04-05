@@ -2,14 +2,14 @@
 
 API de tarefas com Java e Spring Boot, criando um To-Do List do zero.
 
-* criação de rotas HTTP;
-* validação de parâmetros;
-* integração com banco de dados
-* autenticação JWT com Spring Security
-* deploy na plataforma Render.
+* Criação de rotas HTTP;
+* Validação de parâmetros;
+* Integração com banco de dados
+* Autenticação JWT com Spring Security
+* Deploy na plataforma Render.
 
 ## Tecnologias
 
 * [Spring initializr ](https://start.spring.io/ "Spring initializr ")
 
-## Estrutura do Projeto
+## Arquitetura do Projeto
