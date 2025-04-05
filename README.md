@@ -12,4 +12,4 @@ API de tarefas com Java e Spring Boot, criando um To-Do List do zero.
 
 * [Spring initializr ](https://start.spring.io/ "Spring initializr ")
 
-## Estrutura do Projeto
+## Arquitetura do Projeto
