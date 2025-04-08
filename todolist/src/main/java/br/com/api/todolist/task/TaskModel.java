@@ -3,17 +3,11 @@ package br.com.api.todolist.task;
 import java.time.LocalDateTime;
 import java.util.UUID;
 import org.hibernate.annotations.CreationTimestamp;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.Data;
-
-/**
- * id usuário (id_usuario) descrição título data de início data de término
- * prioridade
- */
 
 @Data
 @Entity(name = "tb_tasks")
@@ -26,7 +20,7 @@ public class TaskModel {
 
     @Column(length = 50)
     private String title;
-    private LocalDateTime stardtAt;
+    private LocalDateTime startAt;
     private LocalDateTime endAt;
     private String priority;
 
@@ -34,7 +28,5 @@ public class TaskModel {
 
     @CreationTimestamp
     private LocalDateTime createdAt;
-
-    
 
 }
